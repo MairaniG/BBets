@@ -103,9 +103,10 @@ print(lci)
 print(uci)
 ```
 
-28 people in class for the 2:1 bet is about fair.   
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
+28 people in class for the 2:1 bet is about fair. To make the game fair, Brownlow should pay $4.40.   
+  
 
