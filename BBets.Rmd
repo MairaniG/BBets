@@ -92,7 +92,7 @@ To make the game fair, Brownlow should pay $4.40.
 ```{r}
 bank = vector('numeric')
 for (i in 1:100) {
-  bank[i] = BrLw(28,2, 637)
+  bank[i] = BrLw(29,2, 637)
 }
 meanbank =mean(bank)
 print (mean(bank))
@@ -107,6 +107,6 @@ print(uci)
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
-28 people in class for the 2:1 bet is about fair. To make the game fair, Brownlow should pay $4.40.   
+29 people in class for the 2:1 bet is about fair. To make the game fair, Brownlow should pay $4.40.   
   
 
