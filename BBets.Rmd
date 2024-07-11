@@ -91,11 +91,22 @@ This bar chart shows that Mr.Brownlow needs to put down $4.50 in order for a fai
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
+```{r}
+bank = vector('numeric')
+for (i in 1:100){
+  bank[i]= BrLw(28,2, 637)
+}
+meanbank= mean(bank)
+print(meanbank)
+hist(bank)
+lci= mean(bank)-sqrt(var(bank))*1.96 
+uci= mean(bank)+sqrt(var(bank))*1.96 
+print (lci)
+print(uci)
 
+```
 
-
-
-
+For the bet to be fair on a 2:1 ratio, there would need to be about 28 people.
 
 
 # Discussion and Conclusion
